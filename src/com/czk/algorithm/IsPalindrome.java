@@ -5,7 +5,7 @@ package com.czk.algorithm;
  * <p>
  * 判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
  * <p>
- * TODO 最简单的解法，直接转成字符串，再用reverse()方法反转
+ *
  *
  * @author caozhikun
  * @datetime 2019/10/23
@@ -14,6 +14,7 @@ public class IsPalindrome {
 
     /**
      * 暴力解 直接使用方法
+     * TODO 最简单的解法，直接转成字符串，再用reverse()方法反转
      *
      * @param x 需要判断的参数
      * @return boolean
